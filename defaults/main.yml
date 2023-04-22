@@ -1,0 +1,4 @@
+---
+# defaults file for src/roles/common
+# os_time_zone: "Asia/Tokyo"
+os_time_zone: "Japan"
