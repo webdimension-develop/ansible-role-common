@@ -2,9 +2,9 @@
 # tasks file for common
 - name: Dnf update
   become: true
-  dnf:
+  ansible.builtin.dnf:
     name: '*'
-    state: present
+    state: latest
 
 - name: Time zone
   become: true
